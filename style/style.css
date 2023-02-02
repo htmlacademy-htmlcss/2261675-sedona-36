@@ -52,6 +52,10 @@ body{
   text-decoration: none;
   text-transform: capitalize;
 }
-.main-index{
+.main-logo{
+  color: #000000;
+  background-color: #ffffff;
   background-image: url("/Image/Jpg/index-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
