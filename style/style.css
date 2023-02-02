@@ -114,3 +114,15 @@ body{
   text-align: center;
   color: #333333;
 }
+.services-item-food{
+  background-image: url("/Image/Svg/food-icon.svg");
+  background-repeat: no-repeat;
+}
+.services-item-house{
+  background-image: url("/Image/Svg/house-icon.svg");
+  background-repeat: no-repeat;
+}
+.services-item-gift{
+  background-image: url("/Image/Svg/gift-icon.svg");
+  background-repeat: no-repeat;
+}
