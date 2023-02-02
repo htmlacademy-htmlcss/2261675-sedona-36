@@ -73,5 +73,27 @@ body{
   font-size: 22px;
   line-height: 26px;
   text-align: center;
+}
+.advantages-title{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.advanteges-paragraph{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+.advantages-title-blue{
+  color: #ffffff;
+  background-color: #82B3D3;
+}
+.advantages-item-green{
+  background: rgba(131, 179, 211, 0.2);
 
 }
