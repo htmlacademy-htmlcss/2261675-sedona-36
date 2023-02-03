@@ -38,16 +38,19 @@ body{
   color: #000000;
   background-color: #ffffff;
 }
+li{
+  list-style-type: none;
+}
 .main-header{
   color: #000000;
   background-color: #ffffff;
 }
 .navigation-link{
+  font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
   color: inherit;
-  background-color: #ffffff;
   text-align: center;
   text-decoration: none;
   text-transform: capitalize;
@@ -65,7 +68,6 @@ body{
   background: #756157;
   padding: 8px 50px 8px 50px;
   border-radius: 4px;
-
 }
 
 
@@ -112,9 +114,11 @@ body{
   background-color: #82B3D3;
 }
 .advantages-item-green{
-  background: rgba(131, 179, 211, 0.2);
+  background-color: rgba(131, 179, 211, 0.2);
 }
-
+.color-blue{
+  background: rgba(131, 179, 211, 0.12);
+}
 .services-heading{
   font-style: normal;
   font-weight: 700;
@@ -177,7 +181,16 @@ body{
   text-align: center;
   color: #ffffff;
 }
+.button{
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  background: #82B3D3;
+}
 .subscription-foot{
+  height: 415px;
   background-image: url("/Image/Jpg/Subscribe.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
