@@ -221,3 +221,128 @@ li{
   display: flex;
   justify-content: flex-start;
 }
+
+/* каталог */
+.inner-header{
+  background-image: url("/Image/Jpg/Filter.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  height: 412px;
+}
+.inner-header-tittle{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  color: #ffffff;
+
+}
+.breadcrumbs-item{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.result-hotel{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.hotel-card-title{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.hotel-price{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+.detailed{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #756157;
+  border-radius: 4px;
+  padding: 8px 50px 8px 50px;
+}
+.hotel-button-favourites{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  background: #82B3D3;
+  border-radius: 4px;
+  padding: 8px 50px 8px 50px;
+  border: none;
+}
+.rating{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+  background: #F2F2F2;
+  border-radius: 4px;
+  padding: 8px 50px 8px 50px;
+}
+.button-green{
+  background: #7DB54F
+}
+.pagination-item{
+  width: 60px;
+  height: 60px;
+  background-color: #82B3D3;
+  border-radius: 4px;
+}
+.pagination-link{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.pagination-current{
+  color: #000000;
+}
+.subscription-catalog{
+  font-style: normal;
+  color: #000000;
+}
+.subscription-mail{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.subscription-info{
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+
+}
