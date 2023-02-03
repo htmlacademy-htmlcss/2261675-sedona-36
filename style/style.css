@@ -52,6 +52,18 @@ body{
   text-decoration: none;
   text-transform: capitalize;
 }
+.button-search{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+
+}
+
+
 .main-logo{
   height: 485px;
   background-image: url("/Image/Svg/hero-end.svg"), url("/Image/Jpg/index-background.jpg");
