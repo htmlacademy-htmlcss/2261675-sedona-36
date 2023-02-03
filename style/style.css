@@ -32,7 +32,7 @@
 
 
 body{
-  font-family: "PT Sans" sans-serif;
+  font-family: "PT Sans",sans-serif;
   font-size: 18px;
   line-height: 21px;
   color: #000000;
@@ -53,6 +53,7 @@ body{
   text-transform: capitalize;
 }
 .button-search{
+  font-family: 'PT Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -60,6 +61,10 @@ body{
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
+  color: #ffffff;
+  background: #756157;
+  padding: 8px 50px 8px 50px;
+  border-radius: 4px;
 
 }
 
