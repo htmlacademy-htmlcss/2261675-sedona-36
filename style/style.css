@@ -52,12 +52,13 @@ body{
   text-decoration: none;
   text-transform: capitalize;
 }
-.main-hero{
-  color: #000000;
-  background-color: #ffffff;
-  background-image: url("/Image/Jpg/index-background.jpg");
-  background-size: 100% auto;
-  background-repeat: no-repeat;
+.main-logo{
+  height: 485px;
+  background-image: url("/Image/Svg/hero-end.svg"), url("/Image/Jpg/index-background.jpg");
+  background-size: 100% auto, 100% auto;
+  background-repeat: no-repeat, repeat-y;
+  background-position: bottom center, top center;
+
 }
 .slogan-header {
   font-style: normal;
@@ -163,4 +164,11 @@ body{
   background-image: url("/Image/Jpg/Subscribe.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
+
+}
+
+
+.social-kontakt{
+  background-image: url("/Image/Svg/Vk-icon.svg");
+  background-repeat: no-repeat;
 }
