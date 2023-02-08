@@ -309,7 +309,7 @@ li{
 }
 .footer{
   display: flex;
-
+  justify-content: space-between;
 }
 
 
@@ -325,11 +325,11 @@ li{
   text-decoration: none;
 }
 .footer-social-list{
-  justify-content: flex-start;
+
 }
 .htmlacademy-link{
 
-  justify-content: flex-end;
+
 }
 /* каталог */
 .inner-header{
