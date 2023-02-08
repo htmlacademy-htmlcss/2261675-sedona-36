@@ -127,6 +127,11 @@ li{
   background-position: bottom center, top center;
 
 }
+.slogan{
+  width: 651px;
+  display: block;
+  margin: 0 auto;
+}
 .slogan-header {
   font-style: normal;
   font-weight: 700;
