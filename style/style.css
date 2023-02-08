@@ -162,15 +162,32 @@ li{
   line-height: 21px;
   text-align: center;
 }
+
+
 .advantages-title-blue{
+
   color: #ffffff;
   background-color: #82B3D3;
 }
+
 .advantages-item-green{
   background-color: rgba(131, 179, 211, 0.2);
 }
 .color-blue{
   background: rgba(131, 179, 211, 0.12);
+}
+
+
+.slogan-services{
+  width: 505px;
+  height: 118px;
+  display: block;
+  margin: 0 auto;
+}
+
+.services-list{
+  display: flex;
+
 }
 .services-heading{
   font-style: normal;
@@ -190,14 +207,21 @@ li{
   color: #333333;
 }
 .services-item-food{
+  width: 400px;
+  height: 385px;
   background-image: url("/Image/Svg/food-icon.svg");
   background-repeat: no-repeat;
 }
 .services-item-house{
+  width: 400px;
+  height: 385px;
   background-image: url("/Image/Svg/house-icon.svg");
   background-repeat: no-repeat;
+
 }
 .services-item-gift{
+  width: 400px;
+  height: 385px;
   background-image: url("/Image/Svg/gift-icon.svg");
   background-repeat: no-repeat;
 }
