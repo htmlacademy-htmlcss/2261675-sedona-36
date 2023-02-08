@@ -79,6 +79,10 @@ li{
   width: 270px;
   margin-left: auto;
 }
+.page-container{
+  width: 1200px;
+  margin: 0 auto;
+}
 
 
 .main-header{
