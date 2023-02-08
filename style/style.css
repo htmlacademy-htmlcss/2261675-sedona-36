@@ -34,7 +34,8 @@ html{
 }
 
 body{
-  margin: 0;
+  width: 1200px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   min-height: 100%;
@@ -79,10 +80,7 @@ li{
   width: 270px;
   margin-left: auto;
 }
-.page-container{
-  width: 1200px;
-  margin: 0 auto;
-}
+
 .logo-medium{
   display: block;
   margin: 0 auto;
@@ -103,7 +101,7 @@ li{
   text-decoration: none;
   text-transform: capitalize;
 }
-.button-search{
+.button-need{
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 700;
@@ -240,8 +238,40 @@ li{
   line-height: 26px;
   text-align: center;
   color: #333333;
-}
 
+}
+.search{
+  padding: 0;
+  width: 592px;
+  height: 214px;
+  display: block;
+  margin: 0 auto;
+
+}
+.button-search{
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  background: #756157;
+  padding: 8px 50px 8px 50px;
+  border-radius: 4px;
+  width: 375px;
+  display: block;
+  margin: 0 auto;
+
+}
+.subscription-foot-text{
+  display: flex;
+  flex-direction: column;
+
+
+}
 .subscription-head{
   font-weight: 700;
   font-size: 30px;
@@ -277,28 +307,30 @@ li{
   background-size: 100% auto;
 
 }
+.footer{
+  display: flex;
+
+}
 
 
-.tel{
+.footer-contacts-phone{
+  justify-content: center;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
   line-height: 40px;
   text-align: center;
   color: #000000;
-  text-decoration: none;
   text-transform: uppercase;
-
-}
-.footer-contacts{
-  display: flex;
-  justify-content: flex-end;
+  text-decoration: none;
 }
 .footer-social-list{
-  display: flex;
   justify-content: flex-start;
 }
+.htmlacademy-link{
 
+  justify-content: flex-end;
+}
 /* каталог */
 .inner-header{
   background-image: url("/Image/Jpg/Filter.jpg");
