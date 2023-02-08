@@ -211,6 +211,10 @@ li{
   background-repeat: no-repeat;
 }
 .services-item-house{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 400px;
   height: 385px;
   background-image: url("/Image/Svg/house-icon.svg");
@@ -314,6 +318,7 @@ li{
 
 
 .footer-contacts-phone{
+  align-self: center;
   justify-content: center;
   font-style: normal;
   font-weight: 400;
@@ -325,10 +330,10 @@ li{
   text-decoration: none;
 }
 .footer-social-list{
-
+  display: flex;
 }
 .htmlacademy-link{
-
+  align-self: center;
 
 }
 /* каталог */
