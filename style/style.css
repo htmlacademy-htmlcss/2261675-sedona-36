@@ -145,6 +145,31 @@ li{
   line-height: 26px;
   text-align: center;
 }
+.advantages{
+  margin: 0;
+  padding: 0;
+}
+.advantages-list{
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 385px 385px 385px;
+  grid-template-areas:
+    "top top-mid top-mid"
+    "mid-left mid-mid mid-right"
+    "bot bot bot-right";
+
+}
+.advantages-title-blue{
+  grid-area: top;
+}
+.pic-right{
+  grid-area: top-mid;
+}
+.pic-left{
+  grid-area: bot;
+}
 .advantages-title{
   font-style: normal;
   font-weight: 700;
@@ -184,6 +209,8 @@ li{
 }
 
 .services-list{
+  padding: 0;
+  margin: 0;
   display: flex;
 
 }
@@ -219,7 +246,7 @@ li{
   height: 385px;
   background-image: url("/Image/Svg/house-icon.svg");
   background-repeat: no-repeat;
-
+  background-position: ;
 }
 .services-item-gift{
   width: 400px;
@@ -274,7 +301,17 @@ li{
   display: flex;
   flex-direction: column;
 
-
+}
+.subscription-form{
+  display: flex;
+  justify-content: center;
+  height: 52px;
+}
+input{
+  width: 452px;
+  padding: 12px 20px;
+  border-radius: 4px 0 0 4px;
+  background: #F2F2F2;
 }
 .subscription-head{
   font-weight: 700;
@@ -334,7 +371,7 @@ li{
 }
 .htmlacademy-link{
   align-self: center;
-
+  margin-right: 70px;
 }
 /* каталог */
 .inner-header{
