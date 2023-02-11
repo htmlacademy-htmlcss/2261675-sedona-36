@@ -8,33 +8,36 @@
 
 <body>
   <header class="main-header">
-    <a aria-current="page" >
-      <img class="logo" src="/Image/Svg/logo.svg" width="140px" height="70" alt="Логотип компании">
-    </a>
 
-    <nav class="navigation">
-      <ul class="navigation-list">
-        <li><a class="navigation-link" href="index.html">Главня</a></li>
-        <li><a class="navigation-link" href="#">О Седоне</a></li>
-        <li><a class="navigation-link" href="#">Гостиницы</a></li>
-      </ul>
-      <ul class="navigation-user">
-        <li class="navigation-user-search">
-          <a href="#">
-            <img src="/Image/Svg/search.svg" width="20" height="20"  alt="Иконка поиска">
-          </a>
-          <span class="visually-hidden">Поиск</span>
-        </li>
-        <li class="navigation-user-like">
-          <a href="#">
-            <img src="/Image/Svg/Like.svg" width="18" height="17" alt="Иконка избранного">
-          </a>
-          <span class="visually-hidden">Избранное</span>
-        </li>
-        <a class="button-search" href="#">Хочу сюда</a>
-      </ul>
-    </nav>
-  </header>
+
+
+    <header class="main-header">
+      <nav class="navigation">
+        <a aria-current="page">
+          <img class="logo" src="/Image/Svg/logo.svg" width="140px" height="70" alt="Логотип компании">
+        </a>
+        <ul class="navigation-list">
+          <li><a class="navigation-link" href="index.html">Главня</a></li>
+          <li><a class="navigation-link" href="#">О Седоне</a></li>
+          <li><a class="navigation-link" href="#">Гостиницы</a></li>
+        </ul>
+        <ul class="navigation-user">
+          <li class="navigation-user-search">
+            <a href="#">
+              <img src="/Image/Svg/search.svg" width="20" height="20"  alt="Иконка поиска">
+            </a>
+            <span class="visually-hidden">Поиск</span>
+          </li>
+          <li class="navigation-user-like">
+            <a href="#">
+              <img src="/Image/Svg/Like.svg" width="18" height="17" alt="Иконка избранного">
+            </a>
+            <span class="visually-hidden">Избранное</span>
+          </li>
+          <a class="button-need" href="#">Хочу сюда</a>
+        </ul>
+      </nav>
+    </header>
 
   <main class="main-inner">
     <header class="inner-header">
@@ -106,26 +109,27 @@
         <button class="reset" type="reset">Сбросить</button>
       </form>
 
-      <div class="result">
-       <p class="result-hotel">Найдено гостиниц: 38</p>
-      </div>
-
       <section class="select-control" aria-label="Сортировка">
-        <option value="cheap">Сначала дешевые</option>
+        <div class="result">
+          <p class="result-hotel">Найдено гостиниц: 38</p>
 
+          <option value="cheap">Сначала дешевые</option>
 
-        <button type="button" class="button-light">
-          <img src="/Image/Svg/cards-icon.svg" alt="Иконка карточки">
-          <span class="visually-hidden">Показать карточки</span>
-        </button>
-        <button type="button" class="button-light">
-          <img src="/Image/Svg/slide-icon.svg" alt="Иконка слайдов">
-          <span class="visually-hidden">Показать слайды</span>
-        </button>
-        <button type="button" class="button-light">
-          <img src="/Image/Svg/list-icon.svg" alt="Иконка списка">
-          <span class="visually-hidden">Показать список</span>
-        </button>
+          <div class="button-result">
+            <button type="button" class="button-light">
+              <img src="/Image/Svg/cards-icon.svg" alt="Иконка карточки">
+              <span class="visually-hidden">Показать карточки</span>
+            </button>
+            <button type="button" class="button-light">
+              <img src="/Image/Svg/slide-icon.svg" alt="Иконка слайдов">
+              <span class="visually-hidden">Показать слайды</span>
+            </button>
+            <button type="button" class="button-light">
+              <img src="/Image/Svg/list-icon.svg" alt="Иконка списка">
+              <span class="visually-hidden">Показать список</span>
+            </button>
+          </div>
+        </div>
       </section>
 
 
@@ -198,37 +202,40 @@
 
 
   <footer class="page-footer">
-    <ul class="footer-social-list">
-      <li class="footer-social-item">
-        <a class="social-kontakt" href="https://vk.com/htmlacademy">
-          <img src="/Image/Svg/social-vk.svg" width="47" height="40" alt="Лого Вконтакте">
-        </a>
-      </li>
+    <div class="footer">
+      <ul class="footer-social-list">
 
-      <li class="footer-social-item">
-        <a class="social-telegram" href="https://t.me/htmlacademy">
-          <img src="/Image/Svg/social-telegram.svg" width="47" height="40" alt="Лого телеграм">
-        </a>
-      </li>
+        <li class="footer-social-item">
+          <a class="social-kontakt" href="https://vk.com/htmlacademy">
+            <img src="/Image/Svg/social-vk.svg" width="47" height="40" alt="Лого Вконтакте">
+          </a>
+        </li>
 
-      <li class="footer-social-item">
-        <a class="social-yotube" href="https://www.youtube.com/user/htmlacademyru">
-          <img src="/Image/Svg/social-youtube.svg" width="47" height="40" alt="Лого Ютуб">
-        </a>
-      </li>
-    </ul>
+        <li class="footer-social-item">
+          <a class="social-telegram" href="https://t.me/htmlacademy">
+            <img src="/Image/Svg/social-telegram.svg" width="47" height="40" alt="Лого телеграм">
+          </a>
+        </li>
+
+        <li class="footer-social-item">
+          <a class="social-yotube" href="https://www.youtube.com/user/htmlacademyru">
+            <img src="/Image/Svg/social-telegram.svg" width="47" height="40" alt="Лого Ютуб">
+          </a>
+        </li>
+      </ul>
 
 
-  <div class="footer-contacts">
-    <a class="footer-contacts-phone" href="tel:+78128121212">
-      <span class="tel">+7 (812) 812-12-12</span>
-    </a>
 
-    <a class="htmlacademy-link" href="https://htmlacademy.ru/">
-      <img src="/Image/Png/HTML Academy.png" width="115" height="33"  alt="Academy логотип">
-    </a>
-  </div>
- </footer>
+      <a class="footer-contacts-phone" href="tel:+78128121212">
+        +7 (812) 812-12-12
+      </a>
+
+      <a class="htmlacademy-link" href="https://htmlacademy.ru/">
+        <img src="/Image/Png/HTML Academy.png" width="115" height="33"  alt="Academy логотип">
+      </a>
+
+    </div>
+   </footer>
 
 </body>
 </html>

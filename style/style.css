@@ -380,6 +380,9 @@ input{
   background-repeat: no-repeat;
   height: 412px;
 }
+.breadcrumbs{
+  display: flex;
+}
 .inner-header-tittle{
   font-style: normal;
   font-weight: 700;
@@ -395,6 +398,15 @@ input{
   line-height: 21px;
   color: #ffffff;
 }
+.result{
+  margin: 0 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button-result{
+  justify-content: flex-end;
+}
 .result-hotel{
   font-style: normal;
   font-weight: 700;
@@ -403,7 +415,14 @@ input{
   text-transform: uppercase;
   color: #000000;
 }
-
+.hotel-list{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  gap: 20px;
+  margin-bottom: 80px;
+}
 .hotel-card-title{
   font-style: normal;
   font-weight: 700;
@@ -459,6 +478,10 @@ input{
 }
 .button-green{
   background: #7DB54F
+}
+.pagination{
+  display: flex;
+  gap: 8px;
 }
 .pagination-item{
   width: 60px;
