@@ -8,33 +8,34 @@
 
 <body>
   <header class="main-header">
-    <header class="main-header">
-      <nav class="navigation">
-        <a aria-current="page">
-          <img class="logo" src="/Image/Svg/logo.svg" width="140px" height="70" alt="Логотип компании">
-        </a>
-        <ul class="navigation-list">
-          <li><a class="navigation-link" href="index.html">Главня</a></li>
-          <li><a class="navigation-link" href="#">О Седоне</a></li>
-          <li><a class="navigation-link" href="#">Гостиницы</a></li>
-        </ul>
-        <ul class="navigation-user">
-          <li class="navigation-user-search">
-            <a href="#">
-              <img src="/Image/Svg/search.svg" width="20" height="20"  alt="Иконка поиска">
-            </a>
-            <span class="visually-hidden">Поиск</span>
-          </li>
-          <li class="navigation-user-like">
-            <a href="#">
-              <img src="/Image/Svg/Like.svg" width="18" height="17" alt="Иконка избранного">
-            </a>
-            <span class="visually-hidden">Избранное</span>
-          </li>
-          <a class="button-need" href="#">Хочу сюда</a>
-        </ul>
-      </nav>
-    </header>
+    <nav class="navigation">
+      <a aria-current="page">
+        <img class="logo" src="/Image/Svg/logo.svg" width="140px" height="70" alt="Логотип компании">
+      </a>
+      <ul class="navigation-list">
+        <li><a class="navigation-link" href="index.html">Главня</a></li>
+        <li><a class="navigation-link" href="#">О Седоне</a></li>
+        <li><a class="navigation-link" href="#">Гостиницы</a></li>
+      </ul>
+      <ul class="navigation-list navigation-user">
+        <li class="navigation-user-search">
+          <a class="navigation-link" href="#">
+            <img src="/Image/Svg/search.svg" width="20" height="20"  alt="Иконка поиска">
+          </a>
+          <span class="visually-hidden">Поиск</span>
+        </li>
+        <li class="navigation-user-like">
+          <a class="navigation-link" href="#">
+            <img src="/Image/Svg/Like.svg" width="18" height="17" alt="Иконка избранного">
+          </a>
+          <span class="visually-hidden">Избранное</span>
+        </li>
+        <li class="navigation-user-button">
+          <a class="navigation-link" href="#">Хочу сюда</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
   <main class="main-inner">
     <header class="inner-header">
@@ -186,14 +187,17 @@
     </li>
   </ul>
 
-  <section class="subscription-catalog">
-    <h3 class="subscription-mail">Подпишитесь на рассылку</h3>
-    <p class="subscription-info">Только полезная информация и никакого спама, честное бойскаутское!</p>
-    <form class="subscription-form" action="https://echo.htmlacademy.ru/">
-      <input type="email" name="subscription-email" placeholder="Ваш e-mail">
-      <button class="button" type="submit">Подписаться</button>
-    </form>
-  </section>
+  <div class="subscription-foot-catalog">
+    <div class="subscription-foot-text">
+      <h3 class="subscription-head-catalog">Подпишитесь на рассылку</h3>
+      <p class="subscription-paragraph-catalog">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
+    </div>
+
+      <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
+        <input type="email" name="subscription-email" placeholder="Ваш e-mail" type="email">
+        <button class="button" type="submit">Подписаться</button>
+      </form>
+  </div>
   </main>
 
 
