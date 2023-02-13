@@ -18,20 +18,22 @@
             <li><a class="navigation-link" href="#">О Седоне</a></li>
             <li><a class="navigation-link" href="#">Гостиницы</a></li>
           </ul>
-          <ul class="navigation-user">
+          <ul class="navigation-list navigation-user">
             <li class="navigation-user-search">
-              <a href="#">
+              <a class="navigation-link" href="#">
                 <img src="/Image/Svg/search.svg" width="20" height="20"  alt="Иконка поиска">
               </a>
               <span class="visually-hidden">Поиск</span>
             </li>
             <li class="navigation-user-like">
-              <a href="#">
+              <a class="navigation-link" href="#">
                 <img src="/Image/Svg/Like.svg" width="18" height="17" alt="Иконка избранного">
               </a>
               <span class="visually-hidden">Избранное</span>
             </li>
-            <a class="button-need" href="#">Хочу сюда</a>
+            <li class="navigation-user-button">
+              <a class="navigation-link" href="#">Хочу сюда</a>
+            </li>
           </ul>
         </nav>
       </header>
@@ -113,18 +115,18 @@
                 <h3 class="search-head">Заинтересовались?</h3>
                 <p class="search-foot">Укажите предполагаемые даты поездки,
                   и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-                <a href="#" class="button-search">ПОИСК ГОСТИНИЦЫ В седоне</a>
+                  <a href="#" class="button-search">ПОИСК ГОСТИНИЦЫ В седоне</a>
               </div>
 
 
               <div class="subscription-foot">
                 <div class="subscription-foot-text">
                   <h3 class="subscription-head">Подпишитесь на рассылку</h3>
-                  <p class="subscription-paragraph">Только полезная информация и никакого спама, честное бойскаутское!</p>
+                  <p class="subscription-paragraph">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
                 </div>
 
-                  <form class="subscription-form" action="https://echo.htmlacademy.ru/">
-                    <input type="email" name="subscription-email" placeholder="Ваш e-mail">
+                  <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
+                    <input type="email" name="subscription-email" placeholder="Ваш e-mail" type="email">
                     <button class="button" type="submit">Подписаться</button>
                   </form>
               </div>
