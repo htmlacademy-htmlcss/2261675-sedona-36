@@ -450,7 +450,6 @@ input{
   padding: 50px 70px 60px;
 }
 .result{
-  margin: 0 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -479,6 +478,7 @@ input{
   display: grid;
   grid-template-columns: repeat(3, 340px);
   gap: 20px;
+  padding: 0;
 }
 .hotel-card{
   box-sizing: border-box;
