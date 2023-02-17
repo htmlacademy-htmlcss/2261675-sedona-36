@@ -483,14 +483,26 @@ input{
 .hotel-card{
   box-sizing: border-box;
   max-width: 340px;
-  padding: 20px 18px 16px;
+  padding: 20px;
   border: 1px solid #E6E6E6;
   border-radius: 4px;
-}
-.hotel-card-img{
+  display: grid;
+  grid-template-columns: repeat(2, 140px);
+  gap: 16px 20px;
+  align-items: center;
   margin: 0;
+}
+
+.hotel-card-img{
+  margin: 0 auto;
   padding: 0;
   margin-bottom: 16px;
+  object-fit: contain;
+}
+.hotel-link-list{
+  grid-column: 1/-1;
+  margin: 0;
+  text-decoration: none;
 }
 .hotel-star{
   display: inline-block;
@@ -498,17 +510,20 @@ input{
 
 .hotel-card-title{
   margin: 0;
-  margin-bottom: 16px;
+  font-family: 'PT Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   color: #000000;
-}
 
+}
+.hotel-price{
+  grid-column: 1/-1;
+  margin: 0;
+}
 .hotel-price{
   margin: 0;
-  margin-bottom: 16px;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -516,6 +531,7 @@ input{
   color: #333333;
 }
 .detailed{
+  margin: 0;
   display: inline-block;
   box-sizing: border-box;
   font-style: normal;
@@ -530,11 +546,11 @@ input{
   border: none;
   border-radius: 4px;
   padding: 8px 26px;
-  margin-bottom: 16px;
+
 
 }
 .hotel-button-favourites{
-  display: inline-block;
+
   box-sizing: border-box;
   font-family: "PT Sans", sans-serif;
   font-style: normal;
@@ -546,7 +562,7 @@ input{
   text-transform: uppercase;
   background: #82B3D3;
   border-radius: 4px;
-  padding: 8px 20px;
+  padding: 8px 18px;
   border: none;
   margin: 0;
   max-width: 140px;
