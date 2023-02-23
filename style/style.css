@@ -64,12 +64,14 @@ li{
   flex-grow: 1;
 }
 .logo{
+  position: relative;
   margin-right: 28px;
 }
 .navigation{
   display: flex;
   width: 1060px;
   margin: 0 auto;
+  margin-bottom: -10px;
 }
 .navigation-list{
   display: flex;
@@ -99,6 +101,7 @@ li{
   background-color: #ffffff;
 }
 .navigation-link{
+  margin: 0;
   display: block;
   padding: 20px 16px;
   font-style: normal;
@@ -110,8 +113,9 @@ li{
   text-decoration: none;
   text-transform: capitalize;
 }
-.{
-  font-family: 'PT Sans';
+.link-button{
+  margin: 14px 0;
+  display: inline-block;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -120,10 +124,11 @@ li{
   text-transform: uppercase;
   text-decoration: none;
   color: #ffffff;
-  background: #756157;
+  background-color: #756157;
   border: none;
-  padding: 8px 34px 8px 34px;
+  padding: 8px 34px;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 
