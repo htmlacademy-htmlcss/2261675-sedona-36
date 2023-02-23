@@ -36,14 +36,14 @@ html{
 body{
   width: 1200px;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
   min-height: 100%;
   font-family: "PT Sans",sans-serif;
   font-size: 18px;
   line-height: 21px;
   color: #000000;
   background-color: #ffffff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+
 }
 li{
   list-style-type: none;
@@ -242,12 +242,7 @@ li{
 
 }
 
-.services-list{
-  padding: 0;
-  margin: 0;
-  display: flex;
 
-}
 .services-heading{
   font-style: normal;
   font-weight: 700;
@@ -269,6 +264,11 @@ li{
   margin: 0;
 
 }
+.services-list{
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
 .services-item-food{
   width: 400px;
   height: 385px;
@@ -276,11 +276,13 @@ li{
   background-repeat: no-repeat;
 }
 .services-item-house{
+  display: block;
+  padding: 81px 85px;
   width: 400px;
-  height: 385px;
+  max-height: 385px;
   background-image: url("/Image/Svg/house-icon.svg");
   background-repeat: no-repeat;
-  background-position: ;
+
 }
 .services-item-gift{
   width: 400px;
