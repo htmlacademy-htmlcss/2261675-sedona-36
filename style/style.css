@@ -426,6 +426,7 @@ input{
 .footer{
   display: flex;
   justify-content: space-between;
+
 }
 
 
@@ -442,7 +443,26 @@ input{
   text-decoration: none;
 }
 .footer-social-list{
+  padding: 0;
   display: flex;
+  margin: 45px 42px 35px 70px;
+}
+.footer-social-item{
+  width: 47px;
+  height: 40px;
+}
+.social-kontakt{
+  display: inline-block;
+  padding: 13px 11px;
+}
+.social-telegram{
+  padding: 12px 14px;
+}
+.social-yotube{
+  padding: 11px 12px;
+}
+.footer-contacts-phone{
+  margin: 0 auto;
 }
 .htmlacademy-link{
   align-self: center;
