@@ -266,8 +266,7 @@ li{
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 30px;
+  margin: 0 0 30px;
 }
 
 .services-paragraph{
@@ -284,25 +283,34 @@ li{
   padding: 0;
   margin: 0;
   display: flex;
+  flex-wrap: wrap;
+}
+.servisec-item-text{
+  padding: 183px 85px 81px;
+  margin: 0;
+  text-align: center;
+
 }
 .services-item-food{
   width: 400px;
   min-height: 385px;
   background-image: url("/Image/Svg/food-icon.svg");
   background-repeat: no-repeat;
+  background-position: 162px 81px;
 }
 .services-item-house{
   width: 400px;
   min-height: 385px;
   background-image: url("/Image/Svg/house-icon.svg");
   background-repeat: no-repeat;
-
+  background-position: 162px 81px;
 }
 .services-item-gift{
   width: 400px;
   min-height: 385px;
   background-image: url("/Image/Svg/gift-icon.svg");
   background-repeat: no-repeat;
+  background-position: 162px 81px;
 }
 
 .search-head{
