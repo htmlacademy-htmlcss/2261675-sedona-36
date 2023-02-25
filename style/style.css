@@ -332,13 +332,12 @@ li{
 .search{
   margin: 0 auto;
   width: 592px;
-  min-height: 214px;
   margin-bottom: 96px;
 }
 .search-head{
-  margin-top: 0;
+
   margin-bottom: 20px;
-  padding-top: 96px;
+  margin-top: 96px;
 
 
 }
