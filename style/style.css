@@ -85,9 +85,25 @@ li{
   margin-left: auto;
 }
 .navigation-user .navigation-link{
-  min-height: 16px;
-  min-width: 22px;
+  min-height: 20px;
+  min-width: 20px;
 }
+.navigation-user .navigation-user-search .navigation-link{
+  background-image: url("../Image/Svg/search.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 22px 12px;
+}
+
+.navigation-user .navigation-user-like .navigation-link{
+  background-image: url("../Image/Svg/Like.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 22px 13px 22px 13px;
+  margin-right: 20px;
+}
+
+
 
 .logo-medium{
   padding-top: 51px;
@@ -271,22 +287,20 @@ li{
 }
 .services-item-food{
   width: 400px;
-  height: 385px;
+  min-height: 385px;
   background-image: url("/Image/Svg/food-icon.svg");
   background-repeat: no-repeat;
 }
 .services-item-house{
-  display: block;
-  padding: 81px 85px;
   width: 400px;
-  max-height: 385px;
+  min-height: 385px;
   background-image: url("/Image/Svg/house-icon.svg");
   background-repeat: no-repeat;
 
 }
 .services-item-gift{
   width: 400px;
-  height: 385px;
+  min-height: 385px;
   background-image: url("/Image/Svg/gift-icon.svg");
   background-repeat: no-repeat;
 }
