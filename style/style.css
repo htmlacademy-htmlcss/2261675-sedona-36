@@ -473,22 +473,51 @@ input{
 .footer-contacts-phone{
   margin: 0 auto;
 }
+.sicial-icon-footer:hover .social-svg{
+  fill: #68A2CA;
+}
+.sicial-icon-footer:focus .social-svg{
+  fill: #68A2CA;
+}
+.sicial-icon-footer:active .social-svg{
+  fill: rgba(104, 162, 202, 0.3);
+}
+
+.footer-contacts-phone:hover{
+  color: #756157;
+}
+.footer-contacts-phone:focus{
+  color: #756157;
+}
+.footer-contacts-phone:active{
+  color: rgba(117, 97, 87, 0.3);
+}
 .htmlacademy-link{
   margin: auto 0;
   margin-left: auto;
   padding: 0;
+}
+.htmlacademy-link:hover .htmlacademy-link-svg{
+  fill: #756157;
+}
+.htmlacademy-link:focus .htmlacademy-link-svg{
+  fill: #756157;;
+}
+.htmlacademy-link:active .htmlacademy-link-svg{
+  fill: rgba(117, 97, 87, 0.3);
 }
 /* каталог */
 .inner-header{
   background-image: url("/Image/Jpg/Filter.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
-  height: 412px;
+  min-height: 412px;
 }
 .breadcrumbs{
   display: flex;
 }
 .inner-header-tittle{
+  margin: 0;
   font-style: normal;
   font-weight: 700;
   font-size: 60px;
@@ -515,9 +544,14 @@ input{
 .button-result{
   justify-content: flex-end;
 }
-.button-light{
+.button-light,
+.button-cards{
+  box-sizing: border-box;
   width: 48px;
   height: 48px;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+  padding: 14px 12px;
 }
 .result-hotel{
   font-style: normal;
