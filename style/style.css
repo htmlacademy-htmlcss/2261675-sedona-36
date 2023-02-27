@@ -79,6 +79,7 @@ li{
   width: 340px;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 .navigation-user{
   width: 270px;
@@ -102,7 +103,19 @@ li{
   padding: 22px 13px 22px 13px;
   margin-right: 20px;
 }
+.navigation-link-current::before{
+  position: absolute;
+  width: 68px;
+  top: 64px;
+  left: 16px;
+  right: 16px;
+  height: 2px;
+  background-color: #756257;
+  content: "";
 
+
+
+}
 
 
 .logo-medium{
@@ -146,6 +159,8 @@ li{
   border-radius: 4px;
   cursor: pointer;
 }
+
+
 
 
 .main-logo{
@@ -473,6 +488,47 @@ input{
 .footer-contacts-phone{
   margin: 0 auto;
 }
+.link-button:hover,
+.button-search:hover,
+.detailed:hover{
+  background-color: #615048;
+}
+.link-button:focus,
+.button-search:focus,
+.detailed:focus{
+  background-color: #615048;
+}
+
+
+.link-button:active,
+.button-search:active,
+.detailed:active{
+  background-color: #756157;
+  color: rgba(255, 255, 255, 0.3);
+}
+.button:hover,
+.hotel-button-favourites:hover {
+  background-color: #68A2CA;
+}
+.button:focus,
+.hotel-button-favourites:focus {
+  background-color: #68A2CA;
+}
+.button:active,
+.hotel-button-favourites:active {
+  background-color: #82B3D3;
+  color: rgba(255, 255, 255, 0.3);
+}
+.button-green:hover{
+  background-color: #6C9E42;
+}
+.button-green:focus{
+  background-color: #6C9E42;
+}
+.button-green:active{
+  background-color: #7DB54F;
+  color:  rgba(255, 255, 255, 0.3);
+}
 .sicial-icon-footer:hover .social-svg{
   fill: #68A2CA;
 }
@@ -676,7 +732,7 @@ input{
   max-width: 140px;
 }
 .button-green{
-  padding: 8px 18px;
+  padding: 8px 17px;
   background-color: #7DB54F
 }
 .pagination{
