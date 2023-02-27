@@ -67,11 +67,13 @@ li{
   position: relative;
   margin-right: 28px;
 }
+
 .navigation{
   display: flex;
   width: 1060px;
   margin: 0 auto;
   margin-bottom: -10px;
+
 }
 .navigation-list{
   display: flex;
@@ -103,9 +105,12 @@ li{
   padding: 22px 13px 22px 13px;
   margin-right: 20px;
 }
+.navigation-item{
+  position: relative;
+}
 .navigation-link-current::before{
   position: absolute;
-  width: 68px;
+
   top: 64px;
   left: 16px;
   right: 16px;
@@ -606,6 +611,47 @@ input{
 .button-result{
   justify-content: flex-end;
 }
+.sorting{
+  margin: 0;
+  padding: 0;
+}
+.sorting-container{
+  width: 522px;
+  display: flex;
+  box-sizing: border-box;
+}
+.sorting{
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  width: 292px;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 13px 131px 13px 20px;
+  margin-right: 70px;
+  appearance: none
+}
+.sorting{
+  background-image: url(../Image/Svg/arrow.svg);
+  background-repeat: no-repeat;
+  background-position: 260px 20px;
+}
+.sorting:hover{
+  outline: 2px solid #68A2CA;
+}
+.sorting:focus{
+  outline: 2px solid #68A2CA;
+}
+.sorting:active{
+  outline: 2px solid #3F5E72;
+}
+.sorting:disabled{
+  outline: 0.3;
+}
 .button-light,
 .button-cards{
   box-sizing: border-box;
@@ -614,6 +660,15 @@ input{
   border: 2px solid #E5E5E5;
   border-radius: 4px;
   padding: 14px 12px;
+}
+.button-light:hover{
+  outline: 2px solid #000000;
+}
+.button-light:focus{
+  outline: 2px solid #68A2CA;
+}
+.button-light:active{
+  outline: 2px solid #000000;
 }
 .result-hotel{
   font-style: normal;
