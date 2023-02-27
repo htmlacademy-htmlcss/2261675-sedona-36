@@ -112,10 +112,8 @@ li{
   height: 2px;
   background-color: #756257;
   content: "";
-
-
-
 }
+
 
 
 .logo-medium{
@@ -430,6 +428,7 @@ input{
   background: #82B3D3;
   border: #82B3D3;
   border-radius: 0 4px 4px 0;
+  cursor: pointer;
 }
 .subscription-foot{
   height: 415px;
@@ -561,6 +560,13 @@ input{
 }
 .htmlacademy-link:active .htmlacademy-link-svg{
   fill: rgba(117, 97, 87, 0.3);
+}
+
+.link-button:disabled,
+.button:disabled,
+.button-search:disabled{
+  background-color: #E5E5E5;
+  opacity: 0.5;
 }
 /* каталог */
 .inner-header{
