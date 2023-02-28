@@ -461,32 +461,37 @@ input{
   text-transform: uppercase;
   text-decoration: none;
 }
-.footer-social-list{
-  padding: 0;
-  margin: 0;
-}
+
 .footer-social-list{
   display: flex;
   flex-wrap: wrap;
-  margin: auto 0;
+  width: 142px;
+  margin: 0;
   margin-right: auto;
-  padding: 5px 0;
+  padding: 0;
   justify-content: flex-start;
 }
-.footer-social-item{
+.social-icon-footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 47px;
   height: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: border-box;
 }
+
 .social-kontakt{
-  display: inline-block;
+
   padding: 13px 11px;
 }
 .social-telegram{
-  display: inline-block;
+
   padding: 12px 14px;
 }
 .social-yotube{
-  display: inline-block;
+
   padding: 11px 12px;
 }
 .footer-contacts-phone{
@@ -533,13 +538,13 @@ input{
   background-color: #7DB54F;
   color:  rgba(255, 255, 255, 0.3);
 }
-.sicial-icon-footer:hover .social-svg{
+.social-icon-footer:hover .social-svg{
   fill: #68A2CA;
 }
-.sicial-icon-footer:focus .social-svg{
+.social-icon-footer:focus .social-svg{
   fill: #68A2CA;
 }
-.sicial-icon-footer:active .social-svg{
+.social-icon-footer:active .social-svg{
   fill: rgba(104, 162, 202, 0.3);
 }
 
