@@ -751,9 +751,57 @@ input{
   margin: 0;
   text-decoration: none;
 }
-.hotel-star{
+.hotel-stars{
   display: inline-block;
+  max-width: 140px;
+  margin: 0;
+  height: 37px;
+  box-sizing: border-box;
 }
+.stars-4{
+  background-image: url("../Image/Svg/star-icon.svg"),
+                    url("../Image/Svg/star-icon.svg"),
+                    url("../Image/Svg/star-icon.svg"),
+                    url("../Image/Svg/star-icon.svg");
+  background-size: 18px 17px,
+                    18px 17px,
+                    18px 17px,
+                    18px 17px;
+  background-repeat: no-repeat,
+                     no-repeat,
+                     no-repeat
+                     no-repeat;
+  background-position:  0 10px,
+                        24px 10px,
+                        48px 10px,
+                        72px 10px;
+}
+.stars-3{
+  background-image: url("../Image/Svg/star-icon.svg"),
+                    url("../Image/Svg/star-icon.svg"),
+                    url("../Image/Svg/star-icon.svg");
+
+  background-size: 18px 17px,
+                    18px 17px,
+                    18px 17px;
+  background-repeat: no-repeat,
+                     no-repeat,
+                     no-repeat;
+  background-position:  0 10px,
+                        24px 10px,
+                        48px 10px;
+}
+.stars-2{
+  background-image: url("../Image/Svg/star-icon.svg"),
+                    url("../Image/Svg/star-icon.svg");
+  background-size: 18px 17px,
+                    18px 17px;
+  background-repeat: no-repeat,
+                     no-repeat;
+  background-position:  0 10px,
+                        24px 10px;
+}
+
 
 .hotel-card-title{
   margin: 0;
