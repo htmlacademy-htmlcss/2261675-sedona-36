@@ -1186,8 +1186,12 @@ input[type=radio]:focus {
 
 }
 .hotel-price{
-  grid-column: 1/-1;
+  grid-column: 1/2;
   margin: 0;
+}
+.hotel-price-min{
+  grid-column: 2/3;
+  justify-self: end;
 }
 .hotel-price{
   margin: 0;
