@@ -32,6 +32,7 @@
             <li class="navigation-user-like">
               <a class="navigation-link" href="#">
                 <span class="visually-hidden">Избранное</span>
+                <span class="number">12</span>
               </a>
             </li>
             <li class="navigation-user-button">
@@ -137,7 +138,7 @@
                 </div>
 
                   <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
-                    <input type="email" name="subscription-email" placeholder="Ваш e-mail" type="email">
+                    <input class="input-subscription" type="email" name="subscription-email" placeholder="Ваш e-mail" type="email">
                     <button class="button" type="submit">Подписаться</button>
                   </form>
               </div>
@@ -189,5 +190,58 @@
 
           </div>
          </footer>
+          <div class="modal-container">
+            <div class="modal modal-registr">
+              <button class="modal-close-button">
+                <span class="visually-hidden">Закрыть</span>
+              </button>
+              <section class="model-content">
+                <h2 class="mode-title">Поиск гостиницы в Седоне</h2>
+                <form class="hotel-form" action="https://echo.htmlacademy.ru/" method="get">
+                  <div class="hotel-form-gruop">
+                    <label for="check-date">Дата заезда:</label>
+                    <input class="data-form" type="text" id="check-date" placeholder="Введите дату">
+                  </div>
+                  <span class="dates-message">Мы не можем отправить вас в прошлое.</span>
+                  <div class="hotel-form-gruop">
+                    <label for="check-date">Дата заезда:</label>
+                    <input class="data-form" type="text" id="check-date" placeholder="Введите дату">
+                  </div>
+                  <span class="dates-message">Мы не можем отправить вас в прошлое.</span>
+
+                    <div class="guest-number-left">
+                      <label class="form-label" for="guest-number-adults">Взрослые:</label>
+                      <div class="guest-number-container">
+                        <input class="guest-number" id="guest-number" name="guest-number" type="number" step="1" value="2" min="1">
+                        <button class="guest-number-control minus" type="button">
+                          <span class="visually-hidden">Кнопка минус для убавления количества гостей</span>
+                        </button>
+                        <button class="guest-number-control plus" type="button">
+                          <span class="visually-hidden">Кнопка плюс для прибавления количества гостей</span>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="guest-number-right">
+                      <label class="form-label" for="guest-number-children">Дети:</label>
+                      <button class="add-info" type="button">
+                        <span class="visually-hidden">Дополнительная информация</span>
+                      </button>
+                      <span class="children">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</span>
+                      <div class="guest-number-container">
+                        <input class="guest-number children" id="guest-number-children" name="guest-number-children" type="number" step="1" value="2" min="0">
+                        <button class="guest-number-control minus" type="button">
+                          <span class="visually-hidden">Кнопка минус для убавления количества гостей</span>
+                        </button>
+                        <button class="guest-number-control plus" type="button">
+                          <span class="visually-hidden">Кнопка плюс для прибавления количества гостей</span>
+                        </button>
+                        <button class="submit-button" type="submit">Найти</button>
+                      </div>
+                    </div>
+
+                </form>
+              </section>
+            </div>
+          </div>
     </body>
 </html>
