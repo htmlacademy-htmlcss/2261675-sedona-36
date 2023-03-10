@@ -1351,9 +1351,9 @@ input[type=radio]:focus {
   height: 100%;
   background: rgba(242, 242, 242, 0.8);
 }
-/* .modal-container-close{
+.modal-container-close{
   display: none;
-} */
+}
 .modal{
   position: relative;
   margin: auto;
@@ -1473,7 +1473,7 @@ input[type=radio]:focus {
 .hotel-form-gruop{
   margin-bottom: 23px;
 }
-.input .label-name:last-of-type{
+.input .label-name{
   width: 131px;
   display: inline-block;
   padding-top:12px;
@@ -1508,14 +1508,15 @@ input[type=radio]:focus {
   content: "i";
   text-align: center;
   vertical-align: middle;
-  color: white;
+  color: #ffffff;
   background-color: #83B3D3;
   background-size: cover;
   border-radius: 50%;
   height: 26px;
   width: 26px;
-  left: 59px;
+  left: 62px;
   cursor: pointer;
+  z-index: 1;
 }
 .guest-number input[type="number"]{
   width: 110px;
@@ -1552,6 +1553,7 @@ input[type=radio]:focus {
 .submit-button{
   width: 577px;
   font:inherit;
+  font-weight: 700;
   font-size: 20px;
   line-height: 24px;
   text-align: center;
@@ -1570,9 +1572,8 @@ input[type=radio]:focus {
   background-color:#333333;
   width: 256px;
   border-radius: 10px;
-  left: -56px;
+  left: -52px;
   top:55px;
-  opacity: 0;
   font-size: 16px;
   line-height: 20px;
   font-weight: 400;
@@ -1593,7 +1594,7 @@ input[type=radio]:focus {
   position: absolute;
   background-size: cover;
   top: -9px;
-  left: 118px;
+  left: 117px;
 }
 .modal-close-button:hover{
   background-color: #E6E6E6;
