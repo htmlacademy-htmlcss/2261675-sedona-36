@@ -42,7 +42,6 @@
             </li>
           </ul>
         </nav>
-      </header>
 
       <main class="main-container main-index">
         <div class="page-container">
@@ -56,7 +55,7 @@
                   заслуживающий большего!</h2>
                 <p class="slogan-text">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
               </div>
-            </section>
+
 
             <section class="advantages">
               <ul class="advantages-list">
@@ -140,12 +139,13 @@
                 </div>
 
                   <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
-                    <input class="input-subscription" type="email" name="subscription-email" placeholder="Ваш e-mail" type="email">
+                    <input class="input-subscription" type="email" name="subscription-email" placeholder="Ваш e-mail">
                     <button class="button" type="submit">Подписаться</button>
                   </form>
               </div>
             </section>
-        </main>
+        </div>
+      </main>
 
         <footer class="page-footer">
           <div class="footer">
@@ -199,20 +199,21 @@
                 <span class="visually-hidden">Закрыть</span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52"><circle cx="26" cy="26" r="26" fill="#F2F2F2"/>
                     <path  d="m33.49 20.78-1.3-1.29-5.7 5.7-5.7-5.7-1.3 1.3 5.7 5.7-5.7 5.7 1.3 1.3 5.7-5.7 5.7 5.7 1.3-1.3-5.7-5.7 5.7-5.7Z"/>
+                </svg>
               </button>
               <section class="model-content">
                 <h2 class="mode-title">Поиск гостиницы в Седоне</h2>
                 <form class="hotel-form" action="https://echo.htmlacademy.ru/" method="get">
                   <div class="hotel-form-gruop date">
                     <label class="check-date" for="check-date">Дата заезда:</label>
-                    <input class="data-form" type="text" id="check-date" value="27 апреля 2020" placeholder="Введите дату">
+                    <input class="data-form" type="text" name="check-date" id="check-date" value="27 апреля 2020" placeholder="Введите дату">
                     <span class="calendar-icon"> </span>
                     <span class="dates-message">Мы не можем отправить вас в прошлое.</span>
                   </div>
 
                   <div class="hotel-form-gruop date-out">
                     <label class="check-date" for="check-date">Дата выезда:</label>
-                    <input class="data-form" type="text" id="check-date" value="1 сентября 2021"  placeholder="Введите дату">
+                    <input class="data-form" type="text" name="check-out" id="check-out" value="1 сентября 2021"  placeholder="Введите дату">
                     <span class="calendar-icon"> </span>
                     <span class="dates-message-yes">На эти даты есть свободные номера. Пока есть.</span>
                   </div>

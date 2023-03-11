@@ -76,14 +76,14 @@ li{
   min-height: 20px;
   min-width: 20px;
 }
-.navigation-user .navigation-user-search .navigation-link{
+.navigation-user-search .navigation-link{
   background-image: url("../Image/Svg/search.svg");
   background-repeat: no-repeat;
   background-position: center;
   padding: 22px 12px;
 }
 
-.navigation-user .navigation-user-like .navigation-link{
+.navigation-user-like .navigation-link{
   background-image: url("../Image/Svg/Like.svg");
   background-repeat: no-repeat;
   background-position: center;
