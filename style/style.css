@@ -198,7 +198,8 @@ li{
   text-align: center;
   text-transform: uppercase;
 }
-.slogan-text{
+.slogan-text,
+.slogan-text-services{
   margin: 0;
   font-style: normal;
   font-weight: 400;
@@ -213,7 +214,12 @@ li{
 .advantages-item{
 
   display: block;
-  padding: 101px 85px;
+  padding: 112px 85px;
+}
+.advantages-title-blue,
+.advantages-title-blue2{
+  display: block;
+  padding: 102px 85px;
 }
 .advantages-title{
   margin-top: 0;
@@ -307,8 +313,12 @@ li{
 }
 .slogan-text{
   margin-top: 0;
-  margin-bottom: 64px;
+  margin-bottom: 90px;
 
+}
+.slogan-text-services{
+  margin-top: 0;
+  margin-bottom: 64px;
 }
 
 
@@ -339,7 +349,7 @@ li{
   flex-wrap: wrap;
 }
 .servisec-item-text{
-  padding: 183px 85px 81px;
+  padding: 180px 81px 85px;
   margin: 0;
   text-align: center;
 
@@ -363,7 +373,7 @@ li{
   min-height: 385px;
   background-image: url("../Image/Svg/gift-icon.svg");
   background-repeat: no-repeat;
-  background-position: 162px 81px;
+  background-position: 170px 78px;
 }
 
 .search-head{
@@ -390,7 +400,7 @@ li{
 .search-head{
 
   margin-bottom: 20px;
-  margin-top: 96px;
+  margin-top: 93px;
 
 
 }
@@ -403,8 +413,8 @@ li{
   font-family: 'PT Sans',sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 20px;
+  line-height: 36px;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
@@ -412,7 +422,7 @@ li{
   background: #756157;
   padding: 8px 50px 8px 50px;
   border-radius: 4px;
-  width: 375px;
+  width: 376px;
   display: block;
   margin: 0 auto;
 
@@ -430,7 +440,7 @@ li{
   padding-bottom: 104px;
 }
 .input-subscription{
-  width: 452px;
+  width: 410px;
   padding: 12px 20px;
   border-radius: 4px 0 0 4px;
   background: #F2F2F2;
@@ -463,6 +473,7 @@ li{
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
+  text-transform: uppercase;
   padding: 8px 50px;
   color: #ffffff;
   background: #82B3D3;
@@ -642,7 +653,7 @@ li{
 
 .infrastructure-heder{
   background-image: url("../Image/Jpg/Фильтр.jpg");
-  background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
   color: #FFFFFF;
 }
@@ -1104,7 +1115,7 @@ input[type=radio]:focus {
 .hotel-card-img{
   margin: 0 auto;
   padding: 0;
-  margin-bottom: 16px;
+  margin-bottom: 11px;
   object-fit: contain;
 }
 .hotel-link-list{
@@ -1181,6 +1192,7 @@ input[type=radio]:focus {
 .hotel-price-min{
   grid-column: 2/3;
   justify-self: end;
+  margin: 0;
 }
 .hotel-price{
   margin: 0;
