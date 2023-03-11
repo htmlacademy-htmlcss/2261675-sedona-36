@@ -22,7 +22,7 @@ body{
   width: 1200px;
   margin: 0 auto;
   min-height: 100%;
-  font-family: "PT Sans",sans-serif ;
+  font-family: "PT Sans",sans-serif;
   font-size: 18px;
   line-height: 21px;
   color: #000000;
@@ -92,7 +92,7 @@ li{
   position: relative;
 }
 .number{
-  font-family: 'PT Sans',sans-serif;
+  font-family: 'PT Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -400,7 +400,7 @@ li{
 }
 .button-search{
   box-sizing: border-box;
-  font-family: 'PT Sans',sans-serif;
+  font-family: 'PT Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -458,7 +458,7 @@ li{
   margin-bottom: 54px;
 }
 .button{
-  font-family: 'PT Sans',sans-serif;
+  font-family: 'PT Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -1015,7 +1015,7 @@ input[type=radio]:focus {
   box-sizing: border-box;
 }
 .sorting{
-  font-family: 'PT Sans',sans-serif;
+  font-family: 'PT Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -1166,7 +1166,7 @@ input[type=radio]:focus {
 
 .hotel-card-title{
   margin: 0;
-  font-family: 'PT Sans',sans-serif;
+  font-family: 'PT Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -1384,7 +1384,7 @@ input[type=radio]:focus {
   cursor: pointer;
 }
 .mode-title{
-  font-family: 'PT Sans',sans-serif;
+  font-family: 'PT Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
