@@ -175,7 +175,7 @@ li{
 
 .main-logo{
   min-height: 485px;
-  background-image: url("/Image/Svg/hero-end.svg"), url("/Image/Jpg/index-background.jpg");
+  background-image: url("../Image/Svg/hero-end.svg"), url("../Image/Jpg/index-background.jpg");
   background-size: 100% auto, 100% auto;
   background-repeat: no-repeat, repeat-y;
   background-position: bottom center, top center;
@@ -347,21 +347,21 @@ li{
 .services-item-food{
   width: 400px;
   min-height: 385px;
-  background-image: url("/Image/Svg/food-icon.svg");
+  background-image: url("../Image/Svg/food-icon.svg");
   background-repeat: no-repeat;
   background-position: 162px 81px;
 }
 .services-item-house{
   width: 400px;
   min-height: 385px;
-  background-image: url("/Image/Svg/house-icon.svg");
+  background-image: url("../Image/Svg/house-icon.svg");
   background-repeat: no-repeat;
   background-position: 162px 81px;
 }
 .services-item-gift{
   width: 400px;
   min-height: 385px;
-  background-image: url("/Image/Svg/gift-icon.svg");
+  background-image: url("../Image/Svg/gift-icon.svg");
   background-repeat: no-repeat;
   background-position: 162px 81px;
 }
@@ -472,7 +472,7 @@ li{
 }
 .subscription-foot{
   min-height: 415px;
-  background-image: url("/Image/Jpg/Subscribe.jpg");
+  background-image: url("../Image/Jpg/Subscribe.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
 
@@ -641,7 +641,7 @@ li{
 }
 
 .infrastructure-heder{
-  background-image: url("/Image/Jpg/Фильтр.jpg");
+  background-image: url("../Image/Jpg/Фильтр.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
   color: #FFFFFF;
