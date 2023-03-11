@@ -30,9 +30,7 @@ body{
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 
 }
-li{
-  list-style-type: none;
-}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -67,6 +65,7 @@ li{
   margin: 0;
   padding: 0;
   position: relative;
+  list-style-type: none;
 }
 .navigation-user{
   width: 270px;
@@ -347,6 +346,7 @@ li{
   margin: 0;
   display: flex;
   flex-wrap: wrap;
+  list-style-type: none;
 }
 .servisec-item-text{
   padding: 180px 81px 85px;
@@ -516,6 +516,7 @@ li{
   margin-right: auto;
   padding: 0;
   justify-content: flex-start;
+  list-style-type: none;
 }
 .social-icon-footer{
   display: flex;
@@ -663,6 +664,7 @@ li{
   align-items: flex-end;
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 .breadcrumbs-link{
   background-image: url("../Image/Svg/home-main.svg");
@@ -728,6 +730,7 @@ li{
 .catalog-filter-list{
   padding: 0;
   margin: 0;
+  list-style-type: none;
 }
 .catalog-filter-item{
   padding: 0;
@@ -1264,6 +1267,7 @@ input[type=radio]:focus {
   margin: 0;
   padding: 0;
   gap: 8px;
+  list-style-type: none;
 }
 .pagination-link{
   display: block;
