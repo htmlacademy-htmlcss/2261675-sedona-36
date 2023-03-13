@@ -1556,14 +1556,18 @@ input[type="number"] {
   padding-left: 50px;
   padding-top:16px;
   padding-bottom:14px;
-  font: inherit;
-  font-size: 18px;
   background-color: #F2F2F2;
   border: none;
   border-radius: 4px;
   margin-bottom: 48px;
   position: relative;
+  font-style: normal;
+  font: inherit;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
 }
+
 .icon-minus {
   position: absolute;
   z-index: 1;
