@@ -229,7 +229,7 @@ body{
   padding: 0;
   display: grid;
   grid-template-columns: 400px 400px 400px;
-  grid-template-rows: 385px 385px 385px;
+  grid-template-rows: repeat(3, auto);
   grid-template-areas:
     "top top-mid top-mid"
     "mid-left mid-mid mid-right"
@@ -259,6 +259,7 @@ body{
   font-size: 18px;
   line-height: 21px;
   text-align: center;
+  margin: 0;
 }
 
 
