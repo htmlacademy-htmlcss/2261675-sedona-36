@@ -812,6 +812,8 @@ body{
   line-height: 24px;
   left: 106px;
   top: 12px;
+  text-transform: lowercase;
+  opacity: 0.3;
 }
 .input-max .max-price{
   position: absolute;
@@ -821,7 +823,10 @@ body{
   line-height: 24px;
   right: 20px;
   top: 12px;
+  text-transform: lowercase;
+  opacity: 0.3;
 }
+
 
 
 .range-scale{
@@ -1209,6 +1214,9 @@ input[type=radio]:focus {
   grid-column: 2/3;
   justify-self: end;
   margin: 0;
+}
+.hotel-price-min{
+  color: #333333;
 }
 .hotel-price{
   margin: 0;
