@@ -19,16 +19,20 @@ html{
 }
 
 body{
-  width: 1200px;
+  width: 1280px;
   margin: 0 auto;
   min-height: 100%;
   font-family: "PT Sans",sans-serif ;
   font-size: 18px;
   line-height: 21px;
   color: #000000;
+  background-color: #F2F2F2;
+}
+.main-page{
+  width: 1200px;
   background-color: #ffffff;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-
+  margin: 0 auto;
 }
 
 .visually-hidden {
