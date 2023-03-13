@@ -1367,9 +1367,9 @@ input[type=radio]:focus {
   height: 100%;
   background: rgba(242, 242, 242, 0.8);
 }
-.modal-container-close{
+/* .modal-container-close{
   display: none;
-}
+} */
 .modal{
   position: relative;
   margin: auto;
@@ -1394,9 +1394,6 @@ input[type=radio]:focus {
   background-color: #F2F2F2;
   border: none;
   border-radius: 30px;
-  /* background-image: url(../Image/Svg/close.svg);
-  background-repeat: no-repeat;
-  background-position: center; */
   cursor: pointer;
 }
 .mode-title{
@@ -1498,8 +1495,12 @@ input[type=radio]:focus {
 
 .input-range::-webkit-outer-spin-button,
 .input-range::-webkit-inner-spin-button {
-  appearance: none;
+  -webkit-appearance: none;
+          appearance: none;
   margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
 }
 .label-name{
   font-family: inherit;
