@@ -630,7 +630,7 @@ body {
 }
 
 .infrastructure-heder {
-  background-image: url("../Image/Jpg/Фильтр.jpg");
+  background-image: url("../Image/Jpg/filter.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color: #ffffff;
@@ -686,6 +686,7 @@ body {
   bottom: 4px;
 }
 .infrastructure {
+  width: 1060px;
   padding: 0;
   margin: 0;
 }
@@ -916,8 +917,7 @@ input[type="radio"]:focus {
   color: rgba(255, 255, 255, 0.5);
 }
 .button-reset:focus {
-  border: 3px solid #83b3d3;
-  border-radius: 4px;
+  outline: 3px solid #83b3d3;
 }
 .button-reset:active {
   color: rgba(255, 255, 255, 0.3);
@@ -932,13 +932,15 @@ input[type="radio"]:focus {
 
 .button-container {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
+  max-width: 191px;
 }
 .button-container {
   box-sizing: border-box;
 }
 .button-blue {
-  margin: 55px 0 32px;
+  margin: 55px 0 0;
 }
 
 .button-blue,
@@ -952,7 +954,6 @@ input[type="radio"]:focus {
   text-transform: uppercase;
 }
 .button-blue {
-  max-width: 191px;
   background-color: #82b3d3;
   border-radius: 4px;
   padding: 8px 50px;
@@ -960,13 +961,15 @@ input[type="radio"]:focus {
   cursor: pointer;
 }
 .button-reset {
-  max-width: 191px;
   background-color: transparent;
   border-radius: 4px;
   padding: 8px 50px;
+  min-width: 190px;
+  margin: 32px 0 16px;
   border: none;
   cursor: pointer;
 }
+
 .inner-header-tittle {
   margin: 0;
   font-style: normal;
@@ -1235,7 +1238,7 @@ input[type="radio"]:focus {
   height: 60px;
   font-weight: 700;
   line-height: 36px;
-  padding: 11px 23px;
+  padding: 11px;
   background-color: #82b3d3;
   border-radius: 4px;
 }
@@ -1326,9 +1329,9 @@ input[type="radio"]:focus {
   height: 100%;
   background: rgba(242, 242, 242, 0.8);
 }
-.modal-container-close {
+/* .modal-container-close {
   display: none;
-}
+} */
 .modal {
   position: relative;
   margin: auto;
