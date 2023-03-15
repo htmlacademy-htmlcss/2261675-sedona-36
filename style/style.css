@@ -1335,9 +1335,9 @@ input[type="radio"]:focus {
   height: 100%;
   background: rgba(242, 242, 242, 0.8);
 }
-.modal-container-close {
+/* .modal-container-close {
   display: none;
-}
+} */
 .modal {
   position: relative;
   margin: auto;
@@ -1609,6 +1609,7 @@ input[type="number"] {
 
 .modal-icons:hover path {
   fill: #000000;
+  fill-opacity: 1;
 }
 .modal-icons:focus {
   outline: solid 3px #82b3d3;
