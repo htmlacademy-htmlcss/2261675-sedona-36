@@ -176,6 +176,7 @@ body {
   background-size: 100% auto, 100% auto;
   background-repeat: no-repeat, repeat-y;
   background-position: bottom center, top center;
+  background-color: #222c37;
 }
 .slogan {
   width: 651px;
@@ -469,6 +470,7 @@ body {
   background-image: url("../Image/Jpg/Subscribe.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
+  background-color: #222c37;
 }
 .footer {
   display: flex;
