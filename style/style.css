@@ -1038,10 +1038,10 @@ input[type="radio"]:focus {
   border-color: #68a2ca;
 }
 .sorting:focus {
-  outline: #68a2ca;
+  border: 2px solid #68a2ca;
 }
 .sorting:active {
-  outline: #3f5e72;
+  border: 2px solid #3f5e72;
 }
 .sorting:disabled {
   outline: 0.3;
