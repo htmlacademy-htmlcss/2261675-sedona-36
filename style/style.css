@@ -707,7 +707,7 @@ body {
 
 .infrastructure-heder {
   background-image: url("../Image/Jpg/filter.jpg");
-  background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
   background-color: #82b3d3;
   color: #ffffff;
@@ -715,11 +715,11 @@ body {
 
 .breadcrumbs {
   display: flex;
-  align-items: flex-end;
   margin: 0;
   padding: 0;
   list-style-type: none;
   overflow: hidden;
+  word-break: break-all;
 }
 
 .breadcrumbs-link {
@@ -766,7 +766,7 @@ body {
   width: 8px;
   height: 12px;
   position: absolute;
-  bottom: 4px;
+  top: 5px;
 }
 
 .infrastructure {
