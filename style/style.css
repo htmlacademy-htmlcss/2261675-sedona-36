@@ -1503,9 +1503,9 @@ input[type="radio"]:focus {
   height: 100%;
   background: rgba(242, 242, 242, 0.8);
 }
-/* .modal-container-close {
+.modal-container-close {
   display: none;
-} */
+}
 .modal {
   position: relative;
   margin: auto;
@@ -1823,10 +1823,6 @@ input[type="number"] {
   fill: #7561574d;
 }
 
-.modal-icons-minus:hover path {
-  fill: #000000;
-}
-
 .icon-plus:hover path {
   fill: #000000;
   fill-opacity: 1;
@@ -1835,6 +1831,11 @@ input[type="number"] {
 .icon-plus:focus {
   outline: 3px solid #82b3d3;
   border-radius: 4px;
+}
+
+.icon-plus:focus path {
+  fill: #000000;
+  fill-opacity: 1;
 }
 
 .icon-plus:active path {
@@ -1850,6 +1851,11 @@ input[type="number"] {
 .icon-minus:focus {
   outline: 3px solid #82b3d3;
   border-radius: 4px;
+}
+
+.icon-minus:focus path {
+  fill: #000000;
+  fill-opacity: 1;
 }
 
 .icon-minus:active path {
